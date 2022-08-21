@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main( String[] args) {
     }
 
     static {
@@ -8,9 +8,8 @@ public class Main {
         {
 
         }
-        int miles = 20;
 
-        var bonus = amount / miles;
+        var bonus = amount / 20;
 
         System.out.println(bonus);
 
